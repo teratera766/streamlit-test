@@ -10,9 +10,9 @@ st.image(image,width=100)
 
 def uranau():
     ph = ('1.png', '2.png', '3.png')
-    rn_ph = random.choice(ph)
+    rnd_ph = random.choice(ph)
 
-    image = Image.open(rn_ph)
+    image = Image.open(rnd_ph)
 
     st.image(image,width=100)
 
